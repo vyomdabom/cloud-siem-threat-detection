@@ -85,3 +85,12 @@ Based on observed brute-force activity, the following controls are recommended:
 - Use Just-In-Time (JIT) VM access
 
 This project demonstrates the importance of centralized logging, detection engineering, and layered cloud security controls.
+
+##  Tools & Technologies Used
+
+- Microsoft Azure
+- Microsoft Sentinel (SIEM)
+- Azure Log Analytics Workspace
+- Kusto Query Language (KQL)
+- Windows Security Event Logging
+- GeoIP Threat Intelligence Enrichment
