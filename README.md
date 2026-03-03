@@ -1,12 +1,12 @@
 # Cloud SIEM Threat Detection (Azure + Microsoft Sentinel)
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates the deployment of a Windows-based honeypot in Microsoft Azure to simulate real-world attack exposure. Security logs were centralized into Microsoft Sentinel, where KQL queries were developed to detect brute-force authentication attempts (Event ID 4625). Logs were enriched using a GeoIP watchlist to visualize global attack origins through a custom Sentinel attack map.
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 
 - Azure Windows 10 Virtual Machine (Honeypot)
 - Network Security Group (Open inbound rule for attack simulation)
@@ -18,7 +18,7 @@ This project demonstrates the deployment of a Windows-based honeypot in Microsof
 
 ---
 
-## 🔍 Detection Engineering
+##  Detection Engineering
 
 Failed login attempts were detected using:
 
